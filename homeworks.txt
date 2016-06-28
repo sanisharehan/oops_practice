@@ -1,0 +1,46 @@
+==========
+HOMEWORK-3
+==========
+//Recursion //LeetCode#77
+
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+
+For example,
+If n = 4 and k = 2, a solution is:
+[
+  [2,4],
+  [3,4],
+  [2,3],
+  [1,2],
+  [1,3],
+  [1,4],
+]
+
+==========
+HOMEWORK-2
+==========
+//Stack //LeetCode#20 
+
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+==========
+HOMEWORK-1
+==========
+//Stack
+
+1) Create a class called StackOfIntegers, which has following public functions:
+
+- void Push(int no)
+- int Pop() // Returns -1 is stack is empty.
+- int countOfElements()
+- void DeleteAllElements()
+- bool isEmpty()
+
+If something is not clear, use your best judgement. I would be expecting three files:
+
+1) StackOfIntegers.h
+2) StackOfIntegers.cc
+3) run_stack_of_integers_main.cc 
+   // This file should have some test invocations of your class.
