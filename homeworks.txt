@@ -1,4 +1,14 @@
 ==========
+HOMEWORK-5
+==========
+Implement simple BST.
+
+==========
+HOMEWORK-4
+==========
+Difference between structs and classes in c++
+
+==========
 HOMEWORK-3
 ==========
 //Recursion //LeetCode#77
