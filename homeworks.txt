@@ -1,3 +1,87 @@
+================
+Homework#14:
+===============
+To check if a linked list is palindromic or not
+m. isPalindrome(): Returns true if a linked list is palindromic
+
+===============
+Homework#13: 
+==============
+Write additional functions to reverse a linked list recursively and iteratively.
+ k. reverseIter(): Function to reverse a linked list itertively
+ l. reverseRec(): Function to reverse a linked list recursively
+
+=============
+Homework#12: 
+==============
+Implement LinkedList class which includes all the primitive LinkedList features
+// as mentioned below:
+// a. InsertFirst: Function to insert element at beginning of linkedlist.
+// b. DeleteFirst: Function to delete element from beginning of linkedlist. 
+// c. display: Display all elements in a linked list.
+// d. search: Search for a given element in list with a given key.
+// e. delete: Delete an element with a given key from list.
+// f. getSize: Display size of linked list.
+// g. insertEnd: Insert an element at end of linkedlist.
+// h. insert(val, place): insert element at a given place from beginning in linked list.
+// i. deleteEnd: Delete element from end of linked list.
+// j. deleteIndex: Delete element at a given index from linked list.
+
+=================
+Homework#11:
+=================
+Implement Queue data structure using the linked list class created with binary
+// trees. The time complexities are as mentioned with all the methods.
+// The new class should have following functions:
+// a. enqueue: O(n) since we need to traverse to the last element and add new. It can be changed to O(1)
+// by having an additional pointer pointing to the last node.
+// b. dequeue : O(1) since we are removing the root only.
+// c. isEmpty: O(1) since we can simply check the root node exists or not.
+// d. front: Return the element at first without deleting. O(1)
+// e. end: Return the element at end without deleting. O(n) without end pointer
+// f. size: O(n)
+
+
+===================
+Homework#10 (b):
+===================
+Implement a tree as a linked list. A linked list is similar to a tree except that 
+// we only keep links in one direction. Hence, for every node in a tree, if we make either left/right link == NULL,
+// this would become similar to a linked list.
+// Include the following functions:
+// a. insert(val v)
+// b. deleteRoot()
+// c. deleteLastNode()
+// d. createNewRoot(val v)
+// e. printVal()
+// f. returnRoot()
+// g. returnLastNode()
+// h. getSize()
+// 
+// CHANGE: Add a new pointer to the last node in the tree in order to make insertion process as O(1)
+
+
+===================
+Homework#10 (a):
+===================
+Implement a tree as a linked list. A linked list is similar to a tree except that 
+// we only keep links in one direction. Hence, for every node in a tree, if we make either left/right link == NULL,
+// this would become similar to a linked list.
+// Include the following functions:
+// a. insert(val v)
+// b. deleteRoot()
+// c. deleteLastNode()
+// d. createNewRoot(val v)
+// e. printVal()
+// f. returnRoot()
+// g. returnLastNode()
+// h. getSize()
+
+============
+Homework#6:
+============
+Are duplicate values allowed in a BST? How to handle/add duplicate values insertion in a BST.
+
 ==========
 HOMEWORK-5
 ==========
